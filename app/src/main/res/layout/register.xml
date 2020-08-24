@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register now"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txt_username"
+        android:hint="Enter your user name"
+        android:backgroundTint="#000"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress">
+    </EditText>
+
+    <EditText
+        android:id="@+id/txt"
+        android:hint="Enter your email"
+        android:backgroundTint="#000"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress">
+    </EditText>
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:hint="Enter your password"
+        android:backgroundTint="#000"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress">
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_regis"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="center"
+        android:text="Register"
+        />
+
+</LinearLayout>
